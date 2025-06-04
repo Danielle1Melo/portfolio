@@ -87,8 +87,8 @@
 }
 
 .profileWrapper {
-  width: 305px;
-  height: 305px;
+  width: 345px;
+  height: 345px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
@@ -104,16 +104,18 @@
   animation: rotate 4s linear infinite;
 }
 
+.profileImage {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+}
+
 @keyframes rotate {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
 
-.profileImage {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-}
+
 
 @media (max-width: 992px) {
   .container {
@@ -140,13 +142,13 @@
     padding: 0 1rem;
   }
 
-  .profileWrapper {
-  width: 205px;
-  height: 205px;
-}
+.profileWrapper {
+    width: 240px;
+    height: 240px; 
+  }
   
   .profileImage {
-    width: 200px;
-    height: 200px;
+    width: 235px; 
+    height: 235px; 
   }
 }

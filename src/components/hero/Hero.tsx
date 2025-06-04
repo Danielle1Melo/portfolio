@@ -31,6 +31,8 @@ const Hero = () => {
             <Image  
               src={Photo} 
               alt="Dani Melo" 
+              width={780}
+              height={780}
               className={styles.profileImage}
               priority
             />
