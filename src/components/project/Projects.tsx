@@ -6,6 +6,7 @@ import ProjectCard from '@/components/projectCard/ProjectCard';
 import  SmartCities  from "@/assets/images/smartCities.png"
 import  Truck  from "@/assets/images/webSiteTruck.png"
 import  FrotaSmart  from "@/assets/images/frotaSmart.png"
+import  HzcProject  from "@/assets/images/hzcProject.png"
 
 const Projects = () => {
   const [filter, setFilter] = useState('web');
@@ -40,7 +41,17 @@ const Projects = () => {
       technologies: ['Figma'],
       liveUrl: 'https://www.figma.com/design/EfkAhICA1xtFyOBkLx5gZz/Rastreamento-Veicular?node-id=0-1&p=f&t=Q2h8VmbnDiKDvWlY-0',
       category: 'figma'
-    }
+    },
+    {
+      id: 4,
+      title: 'HZC Project',
+      description: 'The HZC project is a web platform developed with the aim of learning and applying the concepts of Flexbox and Grid.',
+      image: HzcProject,
+      technologies: ['HTML', 'CSS', 'Flexbox', 'Grid', 'Responsive Design'],
+      liveUrl: 'https://danielle1melo.github.io/HZCWorld/',
+      codeUrl: 'https://github.com/Danielle1Melo/HZCWorld',
+      category: 'web'
+    },
   ];
 
   const filteredProjects = projects.filter(project => project.category === filter);
