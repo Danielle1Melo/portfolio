@@ -6,6 +6,7 @@ import ProjectCard from '@/components/projectCard/ProjectCard';
 import  SmartCities  from "@/assets/images/smartCities.png"
 import  Truck  from "@/assets/images/webSiteTruck.png"
 import  FrotaSmart  from "@/assets/images/frotaSmart.png"
+import  BarberApp  from "@/assets/images/barberApp.png"
 import  HzcProject  from "@/assets/images/hzcProject.png"
 
 const Projects = () => {
@@ -51,6 +52,15 @@ const Projects = () => {
       liveUrl: 'https://danielle1melo.github.io/HZCWorld/',
       codeUrl: 'https://github.com/Danielle1Melo/HZCWorld',
       category: 'web'
+    },
+    {
+      id: 5,
+      title: 'Barber App',
+      description: 'Project developing an application for scheduling barbershop services, with selection of professional, date and time.',
+      image: BarberApp,
+      technologies: ['Figma'],
+      liveUrl: 'https://www.figma.com/design/Yoxg4MguKIQjXVa9FyMQcm/Barber-App?node-id=0-1&t=Yp4Viik3Ooyatzg4-1',
+      category: 'figma'
     },
   ];
 
