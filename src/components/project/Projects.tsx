@@ -8,6 +8,8 @@ import  Truck  from "@/assets/images/webSiteTruck.png"
 import  FrotaSmart  from "@/assets/images/frotaSmart.png"
 import  BarberApp  from "@/assets/images/barberApp.png"
 import  HzcProject  from "@/assets/images/hzcProject.png"
+import  WebsiteIfro  from "@/assets/images/websiteIfro.png"
+import  AppointmentApp  from "@/assets/images/appointmentApp.png"
 
 const Projects = () => {
   const [filter, setFilter] = useState('web');
@@ -15,7 +17,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Web Site Truck',
+      title: 'Website Truck',
       description: 'This project simulates a trucking service platform, designed to practice web development skills. With an intuitive and responsive interface, it uses NextJs and CSS modules for study and learning purposes.',
       image: Truck,
       technologies: ['NextJs', 'TypeScript', 'Css Modules'],
@@ -60,6 +62,25 @@ const Projects = () => {
       image: BarberApp,
       technologies: ['Figma'],
       liveUrl: 'https://www.figma.com/design/Yoxg4MguKIQjXVa9FyMQcm/Barber-App?node-id=0-1&t=Yp4Viik3Ooyatzg4-1',
+      category: 'figma'
+    },
+    {
+      id: 6,
+      title: 'Website IFRO',
+      description: 'WebsiteIFRO is a project developed in the Front-End discipline. The proposal was to create a new version of the Instituto Federal de Rondônia – Campus Vilhena website, with a more modern, organized, attractive and responsive design, using the technologies learned throughout the course.',
+      image: WebsiteIfro,
+      technologies: ['HTML', 'CSS', 'Vite', 'Typescript', 'Responsive Design'],
+      liveUrl: 'https://website-ifro.vercel.app/',
+      codeUrl: 'https://github.com/Danielle1Melo/WebsiteIFRO',
+      category: 'web'
+    },
+    {
+      id: 7,
+      title: 'Appointment App',
+      description: 'Application developed to manage appointments, allowing companies to register services and employees and customers to easily schedule appointments.',
+      image: AppointmentApp,
+      technologies: ['Mobile', 'Figma'],
+      liveUrl: 'https://www.figma.com/design/dLy8cR5xjZAv9kOjNK2cQv/Appointment-App?node-id=23-563&t=1STQnDMzOD85b1sI-1',
       category: 'figma'
     },
   ];
