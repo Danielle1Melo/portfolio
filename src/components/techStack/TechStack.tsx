@@ -1,5 +1,8 @@
+"use client";
+
 import styles from '@/styles/TechStack.module.css';
 import { TECHNOLOGIES } from '@/utils/data';
+import Image from 'next/image';
 
 
 const TechStack = () => {
@@ -13,7 +16,13 @@ const TechStack = () => {
           {TECHNOLOGIES.map((tech, index) => (
             <div key={index} className={styles.techItem}>
               <div className={styles.iconWrapper}>
-                <img src={tech.icon} alt={tech.name} className={styles.icon} />
+              <Image
+                src={tech.icon}
+                alt={tech.name}
+                width={80}
+                height={80}
+                className={styles.icon}
+              />
               </div>
             </div>
           ))}
