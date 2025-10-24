@@ -3,7 +3,7 @@ import { Github, Linkedin } from 'lucide-react';
 interface ExperienceItem {
   id: number;
   role: string;
-  company: string;
+  company?: string;
   duration: string;
   description: string[];
   technologies: string[];
@@ -45,10 +45,19 @@ export const SOCIALLINKS = [
 
 export const EXPERIENCES: ExperienceItem[] = [
     {
-      id: 1,
+      id: 1,  
+      role: "Junior Developer",
+      duration: "Ago 2025 - Present",
+      description: [
+        "Develop applications for managing cryptocurrency sales."
+      ],
+      technologies: ["Next.js", "TypeScript", "Figma", "Git", "Golang", "PostgreSQL"]
+    },
+    {
+      id: 2,
       role: "Trainee Developer",
       company: "Sicoob Credisul",
-      duration: "Sep 2024 - Present",
+      duration: "Sep 2024 - Ago 2025",
       description: [
         "Model BPMN diagrams for process automation in low-code platforms.",
         "Develop interactive and responsive interfaces using Next.js and TypeScript.",
@@ -59,7 +68,7 @@ export const EXPERIENCES: ExperienceItem[] = [
       technologies: ["BPMN diagrams", "Next.js", "TypeScript", "Figma", "Git", "REST APIs"]
     },
     {
-      id: 2,
+      id: 3,
       role: "Development Apprentice",
       company: "Sicoob Credisul",
       duration: "Nov 2023 - Sep 2024",
@@ -70,7 +79,7 @@ export const EXPERIENCES: ExperienceItem[] = [
         "Consume REST APIs for integration between the front-end and the backend."
       ],
       technologies: ["Next.js", "TypeScript", "Figma", "Git", "REST APIs"]
-    }
+    },
   ];
 
 
