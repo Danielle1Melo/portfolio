@@ -30,9 +30,7 @@ const Hero = () => {
           <div className={styles.profileWrapper}>
             <Image  
               src={Photo} 
-              alt="Dani Melo" 
-              width={780}
-              height={780}
+              alt="Dani Melo"
               className={styles.profileImage}
               priority
             />
