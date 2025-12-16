@@ -2,10 +2,6 @@ import styles from '@/styles/ProjectCard.module.css';
 import { ExternalLink, Github } from 'lucide-react';
 import Image, { StaticImageData } from 'next/image';
 
-interface Technology {
-  name: string;
-}
-
 interface Project {
   id: number;
   title: string;

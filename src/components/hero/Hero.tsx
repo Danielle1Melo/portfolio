@@ -23,7 +23,7 @@ const Hero = () => {
             My name is 
             <span className={styles.name}> Dani Melo,</span>
           </h2>
-          <h2 className={styles.tagline}>Frontend Developer</h2>
+          <h2 className={styles.tagline}>Junior Developer</h2>
         </div>
         
         <div className={`${styles.profileContainer} ${isLoaded ? styles.loaded : ''}`}>

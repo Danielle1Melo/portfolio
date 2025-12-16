@@ -10,6 +10,7 @@ import  BarberApp  from "@/assets/images/barberApp.png"
 import  HzcProject  from "@/assets/images/hzcProject.png"
 import  WebsiteIfro  from "@/assets/images/websiteIfro.png"
 import  AppointmentApp  from "@/assets/images/appointmentApp.png"
+import  VilhenaPublica  from "@/assets/images/vilhenaPublica.png"
 
 const Projects = () => {
   const [filter, setFilter] = useState('web');
@@ -17,6 +18,15 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: 'Vilhena + Pública',
+      description: 'The system aims to facilitate communication between Vilhena–RO City Hall and its citizens, providing a digital channel for access to public services. The application allows citizens to make requests for demands such as waste collection, land cleaning, damaged poles, among others, directing them directly to the responsible departments, promoting greater agility, transparency and efficiency in service.',
+      image: VilhenaPublica,
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'MongoDB', 'Docker', 'Git', 'Responsive Design', 'Testes E2E'],
+      liveUrl: 'https://servicospublicos.app.fslab.dev/',
+      category: 'web'
+    },
+    {
+      id: 21,
       title: 'Website Truck',
       description: 'This project simulates a trucking service platform, designed to practice web development skills. With an intuitive and responsive interface, it uses NextJs and CSS modules for study and learning purposes.',
       image: Truck,
@@ -27,7 +37,7 @@ const Projects = () => {
     },
     
     {
-      id: 2,
+      id: 3,
       title: 'Smart Cities',
       description: 'This project contains an exercise developed for the Front-End discipline, with the objective of creating a simple institutional website using HTML and CSS.',
       image: SmartCities,
@@ -37,7 +47,7 @@ const Projects = () => {
       category: 'web'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Frota Smart',
       description: 'Frota Smart is a fictitious vehicle tracking company, and the objective was to create an intuitive dashboard, with features such as historical monitoring, map, alerts and user and vehicle management.',
       image: FrotaSmart,
@@ -46,7 +56,7 @@ const Projects = () => {
       category: 'figma'
     },
     {
-      id: 4,
+      id: 5,
       title: 'HZC Project',
       description: 'The HZC project is a web platform developed with the aim of learning and applying the concepts of Flexbox and Grid.',
       image: HzcProject,
@@ -56,16 +66,7 @@ const Projects = () => {
       category: 'web'
     },
     {
-      id: 5,
-      title: 'Barber App',
-      description: 'Project developing an application for scheduling barbershop services, with selection of professional, date and time.',
-      image: BarberApp,
-      technologies: ['Figma'],
-      liveUrl: 'https://www.figma.com/design/Yoxg4MguKIQjXVa9FyMQcm/Barber-App?node-id=0-1&t=Yp4Viik3Ooyatzg4-1',
-      category: 'figma'
-    },
-    {
-      id: 6,
+      id: 7,
       title: 'Website IFRO',
       description: 'WebsiteIFRO is a project developed in the Front-End discipline. The proposal was to create a new version of the Instituto Federal de Rondônia – Campus Vilhena website, with a more modern, organized, attractive and responsive design, using the technologies learned throughout the course.',
       image: WebsiteIfro,
@@ -75,7 +76,7 @@ const Projects = () => {
       category: 'web'
     },
     {
-      id: 7,
+      id: 8,
       title: 'Appointment App',
       description: 'Application developed to manage appointments, allowing companies to register services and employees and customers to easily schedule appointments.',
       image: AppointmentApp,

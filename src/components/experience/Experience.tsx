@@ -4,7 +4,6 @@ import { Briefcase } from 'lucide-react';
 import { EXPERIENCES } from '@/utils/data';
 
 const Experience = () => {
-
   return (
     <section className={styles.experience} id="experience">
       <div className={styles.container}>

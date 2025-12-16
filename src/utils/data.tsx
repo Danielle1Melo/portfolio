@@ -47,11 +47,12 @@ export const EXPERIENCES: ExperienceItem[] = [
     {
       id: 1,  
       role: "Junior Developer",
+      company: "Sttarnord",
       duration: "Ago 2025 - Present",
       description: [
-        "Develop applications for managing cryptocurrency sales."
+        "Develop web applications for client companies."
       ],
-      technologies: ["Next.js", "TypeScript", "Figma", "Git", "Golang", "PostgreSQL"]
+      technologies: ["Golang", "Tailwind", "Next.js", "TypeScript", "Figma", "Git", "PostgreSQL"]
     },
     {
       id: 2,
@@ -100,6 +101,5 @@ export const EXPERIENCES: ExperienceItem[] = [
     { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
     { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
     { name: 'Go', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg' },
-
   ];
   
