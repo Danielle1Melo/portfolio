@@ -11,6 +11,7 @@ import  HzcProject  from "@/assets/images/hzcProject.png"
 import  WebsiteIfro  from "@/assets/images/websiteIfro.png"
 import  AppointmentApp  from "@/assets/images/appointmentApp.png"
 import  VilhenaPublica  from "@/assets/images/vilhenaPublica.png"
+import  GoDrive  from "@/assets/images/goDrive.png"
 
 const Projects = () => {
   const [filter, setFilter] = useState('web');
@@ -82,6 +83,15 @@ const Projects = () => {
       image: AppointmentApp,
       technologies: ['Mobile', 'Figma'],
       liveUrl: 'https://www.figma.com/design/dLy8cR5xjZAv9kOjNK2cQv/Appointment-App?node-id=23-563&t=1STQnDMzOD85b1sI-1',
+      category: 'figma'
+    },
+    {
+      id: 9,
+      title: 'Go Drive',
+      description: 'Application designed for car rental services, allowing users to explore available vehicles, choose rental plans, and book cars quickly and securely.',
+      image: GoDrive,
+      technologies: ['Web', 'Figma'],
+      liveUrl: 'https://www.figma.com/design/wsRPm7oEPiLvL8M9KUXKqx/GoDrive?node-id=0-1&t=UFYLKj3PFpwp0Aes-1',
       category: 'figma'
     },
   ];
